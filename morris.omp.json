@@ -147,7 +147,7 @@
           "style": "diamond",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4",
-          "template": "\ue683 ¯\\_(ツ)_/¯:",
+          "template": "\ue683 {{ .UserName }}:",
           "type": "text"
         }
       ],
