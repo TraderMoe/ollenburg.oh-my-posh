@@ -131,7 +131,7 @@
             "cache_duration": "none"
           },
           "trailing_diamond": "\ue0b4",
-          "template": "| \uf6dc RAM: {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB",
+          "template": "| \ue266 RAM: {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB",
           "foreground": "#193549",
           "background": "#a2c4e0",
           "type": "sysinfo",
